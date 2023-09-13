@@ -1,0 +1,13 @@
+
+
+Favourite Icon Color (dark_red) = #D90D1E
+mid_red = #D92332
+next_Mid_red = #D95964
+least_mid_red = #F2AEB4
+Ash_color = #D2D5D9
+red = #D90D32
+dark_red = #A60A27
+Golden_Yellow = #F2B138
+light_Silver = #F2F2F2
+dark = #0D0D0D
+ 

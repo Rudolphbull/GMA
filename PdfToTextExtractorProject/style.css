@@ -1,0 +1,115 @@
+
+
+h1 {
+    width: 100%;
+    text-align: center;
+    color: #F2B138;
+}
+
+#copyright {
+    text-align: center;
+    color: #F2B138;
+}
+
+
+body {
+    background-color:  #F2F2F2;
+    background-image: url(/images/Tsebo_50_Years_-top-employer-logo-1-1.png);
+    background-repeat: no-repeat; background-size: 100%;
+}
+.pdfwork, .afterupload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.pdfword * {
+    margin-top: 5px;
+}
+
+.afterupload {
+    display: none;
+}
+
+.another {
+    display: none;
+    /* color: #0D0D0D; */
+}
+
+.upload {
+    background-image: linear-gradient(#D90D3232,  #D2D5D9);
+    /* background-image: linear-gradient( #D2D5D9, #D90D3232); */
+    border-radius: 10px;
+    border-top: 10px;
+    width: 160px;
+    height: 20px;
+    color: #0D0D0D;
+    padding: 0;
+    border: 0;
+    margin-bottom: 10px;
+}
+
+.upload:hover {
+    color: #D92332;
+    cursor: pointer;
+}
+
+.pwd {
+    margin-bottom: 10px;
+}
+
+#password {
+    margin-bottom: 10px;
+    color: #F2B138;
+}
+
+#selectpdf {
+    margin-bottom: 10px;
+    color: #F2B138;
+}
+
+#another {
+    background-image: linear-gradient(#D90D3232,  #D2D5D9);
+    /* background-image: linear-gradient( #D2D5D9, #D90D3232); */
+    border-radius: 10px;
+    border-top: 10px;
+    width: 160px;
+    height: 20px;
+    color: #0D0D0D;;
+    padding: 0;
+    border: 0;
+}
+
+#another:hover{
+        color: #D92332;
+        cursor: pointer;
+}
+
+#selectpage {
+    margin-bottom: 10px;
+    color: #F2B138;
+}
+
+#download {
+    background-image: linear-gradient(#D90D3232,  #D2D5D9);
+    /* background-image: linear-gradient( #D2D5D9, #D90D3232); */
+    border-radius: 10px;
+    border-top: 10px;
+    width: 160px;
+    height: 20px;
+    color: #0D0D0D;
+    padding: 0;
+    border: 0;
+    margin-bottom: 10px;
+}
+
+.selectpage {
+    margin-bottom: 10px;
+}
+
+#download:hover {
+    color: #D92332;
+    cursor: pointer;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF To Text Extractor</title>
+    <link rel="shortcut icon" href="/images/favicon (1).ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.10.111/pdf.min.js" integrity="sha512-hoZmP5l0sJQzHzkXQS3ZCj/H7bOn8JKmbHd/s2trPUoMcvPaBfLSE9/92cpwYzcXBaEtVT/aCQ9P97rkTSWqcw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div class="top_nav">
+        <a href="#"><img src="/images/Tsebo-Group-Lgo.png" alt="Tsebo_logo"></a>
+    </div>
+    <h1>PDF TO TEXT EXTRACTOR</h1>
+
+    <div class="pdfwork">
+        <button class="another" id="another" onclick="location.reload()">Extract Another PDF</button>
+        <h2><span id="selectpdf">Select PDF</span></h2>
+        <input type="file" class="selectpdf">
+        <span id="password">Password : </span>
+        <input type="password" class="pwd" placeholder="optional">
+        <button class="upload">Upload</button>
+        <div class="afterupload">
+            <span id="selectpage">Select Page</span>
+            <select class="selectpage" onchange="afterProcess()"></select>
+            <button id="download"><a href="" class="download" download>Download Pdf Text</a></button>
+            <textarea class="pdftext"></textarea>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+
+<footer>
+        <p id="copyright">A product of GMA for TSEBO &copy;2023</p>
+</footer>
+</html>
